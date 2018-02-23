@@ -23,7 +23,7 @@
 
 
         <!-- Styles -->
-        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
       
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -116,9 +116,9 @@
 Your application bootstrap  -->
  
         <!-- angular-->
-        <script src="{{asset('js/myApp.js')}}"></script>
+        <script src="{{secure_asset('js/myApp.js')}}"></script>
 
-        <script src="{{ asset('js/myCtrl.js') }}"></script>
+        <script src="{{ secure_asset('js/myCtrl.js') }}"></script>
         <!--angular -->
 
         <!-- Scripts 
