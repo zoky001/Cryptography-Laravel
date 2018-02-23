@@ -14,7 +14,7 @@
     <div class="container"> 
 
         <div class="w3-panel w3-round-xlarge w3-light-grey">
-            <h1>Generiranje ključeva</h1>
+            <h1>Generiranje tajnog i javnog ključa</h1>
         </div>
         <div class="row">
             <!-- The Grid -->
