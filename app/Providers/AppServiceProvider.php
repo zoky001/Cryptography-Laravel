@@ -2,8 +2,8 @@
 
 namespace App\Providers;
 
-use Illuminate\Support\ServiceProvider;
 use Illuminate\Routing\UrlGenerator;
+use Illuminate\Support\ServiceProvider;
 class AppServiceProvider extends ServiceProvider
 {
     /**
@@ -11,14 +11,13 @@ class AppServiceProvider extends ServiceProvider
      *
      * @return void
      */
-    public function boot()
-    {
-        //
-		 if(env('APP_ENV') !== 'local')
-        {
-            //$url->forceSchema('https'); UrlGenerator $url
-        }
-    }
+public function boot(UrlGenerator $url)
+{
+  if(env('REDIRECT_HTTPS'))
+  {
+    $url->forceScheme('https');
+  }
+}
 
     /**
      * Register any application services.

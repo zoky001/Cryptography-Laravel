@@ -23,15 +23,15 @@
 
 
         <!-- Styles -->
-        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
+        <link href="{{ asset('css/app.css') }}" rel="stylesheet">
       
 
         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
         <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-colors-highway.css">
-        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3-colors-food.css">
-        <link rel="stylesheet" href="http://www.w3schools.com/lib/w3.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-highway.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-colors-food.css">
+        <link rel="stylesheet" href="https://www.w3schools.com/lib/w3.css">
 
 
         <!-- datatable-css-->
@@ -116,9 +116,9 @@
 Your application bootstrap  -->
  
         <!-- angular-->
-        <script src="{{secure_asset('js/myApp.js')}}"></script>
+        <script src="{{asset('js/myApp.js')}}"></script>
 
-        <script src="{{ secure_asset('js/myCtrl.js') }}"></script>
+        <script src="{{ asset('js/myCtrl.js') }}"></script>
         <!--angular -->
 
         <!-- Scripts 
